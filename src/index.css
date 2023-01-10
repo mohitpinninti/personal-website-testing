@@ -80,6 +80,11 @@ button:focus-visible {
 */
 
 
+/* 
+Notes:
+  Message Box Color: background-color: #303030;
+*/
+
 
 
 /* Imported from Net Ninja Tutorials */
@@ -89,7 +94,7 @@ button:focus-visible {
   margin: 0;
   font-family: "Quicksand";
   color: rgb(255, 255, 255);
-  background-color: #2d2d2d;
+  background-color: #202225;
 }
 
 /* Navbar */
@@ -99,7 +104,7 @@ button:focus-visible {
   align-items: center;
   max-width: 600px;
   margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
+  /* border-bottom: 1px solid #f2f2f2; */
 }
 .navbar h1 {
   color: #f1356d;
@@ -119,24 +124,6 @@ button:focus-visible {
 /* General Page Content */
 .content {
   max-width: 600px;
-  margin: 40px auto;
+  margin: 0 auto;
   padding: 20px;
-}
-
-/* blog previews / list */
-.blog-preview {
-  padding: 10px 16px;
-  margin: 20px 0;
-  border-bottom: 1px solid #fafafa;
-}
-.blog-preview:hover {
-  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
-}
-.blog-preview h2 {
-  font-size: 20px;
-  color: #f1356d;
-  margin-bottom: 8px;
-}
-.blog-preview a{
-  text-decoration: none;
 }

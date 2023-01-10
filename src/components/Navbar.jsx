@@ -8,7 +8,7 @@ const Navbar = () => {
             <h1>Mohit Pinninti</h1>
             <div className="links">
                 <Link to="/">Home</Link>
-                <Link to="/create" style={{color: 'white', backgroundColor: "#f1356d", borderRadius: "8px"}}>New Blog</Link>
+                <Link to="/testing" style={{color: 'white', backgroundColor: "#f1356d", borderRadius: "8px"}}>Testing</Link>
             </div>
         </nav>
         //<p>hello</p>
